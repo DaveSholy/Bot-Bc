@@ -19,7 +19,7 @@ client.on("message", message => {
 const Discord = require("discord.js");
 const client = new Discord.Client();
 client.on('ready', () => {
-  client.user.setGame(``,'https://www.twitch.tv/By:A7MD');
+  client.user.setGame(`BOT`,'https://www.twitch.tv/By:A7MD');
   console.log('BOT ONLINE');
 });
 
